@@ -8,7 +8,7 @@ public class ChessMain extends JFrame  {
         setResizable(false);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        GUI chessBoardPanel = new GUI();
+        GUI_SecondPlayer chessBoardPanel = new GUI_SecondPlayer();
         add(chessBoardPanel);
         setVisible(true);
     }
